@@ -1,0 +1,33 @@
+{
+  "name": "alexa-skill-express-wrapper",
+  "version": "0.0.1",
+  "description": "Express.js wrapper for local development and testing of Alexa Skills",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FMeneguzzo/alexa-skill-express-wrapper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "alexa",
+    "skill",
+    "lambda",
+    "localhost",
+    "ngrok"
+  ],
+  "author": "https://github.com/FMeneguzzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FMeneguzzo/alexa-skill-express-wrapper/issues"
+  },
+  "homepage": "https://github.com/FMeneguzzo/alexa-skill-express-wrapper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
